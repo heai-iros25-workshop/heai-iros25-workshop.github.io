@@ -368,6 +368,11 @@ html {
 }
 
 
+.my-is-3{
+  flex: none;
+  width: 20%;
+}
+
 .navbar-item {
   color: white !important; /* Text color */
 }
