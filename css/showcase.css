@@ -298,7 +298,7 @@ html {
 }
 
 .main-content .section-color.services {
-  padding: 100px;
+  padding: 3em;
   background-color: #43485c;
   color: white;
 }
@@ -318,7 +318,7 @@ html {
 
 /* submission */
 .main-content .section-color.submission {
-  padding: 100px;
+  padding: 3em;
   background-color: #2e344a;
   color: white;
 }
@@ -366,12 +366,10 @@ html {
   background-color: #ccc; /* Light gray color */
   margin:1em 0;
 }
-
-
-.my-is-3{
+/* .my-is-3{
   flex: none;
   width: 20%;
-}
+} */
 
 .navbar-item {
   color: white !important; /* Text color */
