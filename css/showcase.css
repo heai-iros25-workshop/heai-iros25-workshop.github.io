@@ -33,7 +33,7 @@ html {
 
 .hero-background{
   background-image: url("../images/iros.png");
-  background: linear-gradient(rgba(116, 124, 164, 0.65), rgba(126, 130, 151, 0.65)), rgba(152, 74, 74, 0.55) url("../images/iros.png") no-repeat;
+  background: linear-gradient(rgba(146, 155, 204, 0.65), rgba(126, 130, 151, 0.65)), rgba(152, 74, 74, 0.55) url("../images/iros.png") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
@@ -163,7 +163,7 @@ html {
 }
 
 .main-content .section-dark {
-  background-color: #f0f3f5;
+  background-color: #bdbdbd87;
   padding: 60px 0px;
 }
 
@@ -294,7 +294,7 @@ html {
 }
 
 .main-content {
-  background-color: #d6d6d6;
+  background-color: #ededed;
 }
 
 .main-content .section-color.services {
