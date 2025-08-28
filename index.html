@@ -32,6 +32,21 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
     </style>
+
+    <style>
+      .blink {
+        animation: blinker 1s linear infinite;
+        color: #00ccff;
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -146,9 +161,7 @@
               <br />
               <i class="far fa-newspaper"></i>
               <strong>News!</strong>
-              <a
-                href="#submission"
-                target="_blank"
+              <a href="#submission" target="_blank"
                 >Travel support + best papers prize</a
               >
             </p>
@@ -866,8 +879,17 @@
             </div>
 
             <hr style="background-color: white !important" />
-            <p><b>NEWS!</b> The authors of the two best papers will have their workshop registration covered. In addition, travel support is available.</p>
-            <p>Further details about the Poster Presentation will be shared soon.</p>
+            <h3 class="title is-4 has-text-info">
+              <p>
+                <b class="blink">NEWS!</b> The authors of the two best papers will have their
+                workshop registration covered. In addition, travel support is
+                available.
+              </p>
+            </h3>
+
+            <p>
+              Further details about the Poster Presentation will be shared soon.
+            </p>
           </h2>
           <!-- <button class="button is-light">Light</button> -->
         </div>
